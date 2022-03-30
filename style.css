@@ -1,0 +1,42 @@
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10%
+}
+
+.img-fluid {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    user-select: none;
+}
+
+.img-thumbnail {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    user-select: none;
+    margin-top: 50px;
+}
+
+.figure-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    user-select: none;
+}
+
+[id="modal"] .bd-example .btn,
+[id="buttons"] .bd-example .btn,
+[id="tooltips"] .bd-example .btn,
+[id="popovers"] .bd-example .btn,
+[id="dropdowns"] .bd-example .btn-group,
+[id="dropdowns"] .bd-example .dropdown,
+[id="dropdowns"] .bd-example .dropup,
+[id="dropdowns"] .bd-example .dropend,
+[id="dropdowns"] .bd-example .dropstart {
+  margin: 0 1rem 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .img-fluid {
+        font-size: 3.5rem;
+    }
+}
